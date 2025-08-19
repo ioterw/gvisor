@@ -404,7 +404,7 @@ type Config struct {
 
 	// AllowUnknownFields allows unknown fields in the OCI config. If disabled,
 	// unknown fields will result in an error.
-	AllowUnknownFields bool `flag:"allow-unknown-fields"`
+	AllowUnknownFields bool `flag:"allow-unknown-oci-spec-fields"`
 }
 
 func (c *Config) validate() error {
